@@ -8,6 +8,12 @@ button:hover {
 .chat__sidebar ul {
   list-style-type: none;
 }
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:#265f82;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -43,6 +49,7 @@ button:disabled {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  flex-direction: column;
   justify-content: center;
   background: -moz-linear-gradient(
     125deg,
@@ -81,9 +88,9 @@ button:disabled {
   background: rgba(250, 250, 250, 0.9);
   border: 1px solid #e1e1e1;
   border-radius: 5px;
-  padding: 0 20px;
+  padding: 20px 40px;
   margin: 20px;
-  width: 230px;
+  width: 270px;
 }
 .form-field {
   margin: 20px 0;
@@ -213,4 +220,29 @@ button:disabled {
   .chat__footer button {
     margin-right: 0;
   }
+}
+.app_title{
+color: white;
+display: block;
+font-size: 40px;
+}
+.btn{
+  width: 100%;
+  float: center;
+  border-radius: 25px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:#398abc ;
+}
+.form-inputs{
+  border-radius: 15px;
+  outline: none;
+  padding: 5px;
+  border-style: none;
+  color: #265f82;
+}
+.form-labels{
+  color: #265f82;
+  font-weight:600;
 }
